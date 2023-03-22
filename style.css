@@ -1,0 +1,30 @@
+#container {
+    box-sizing: border-box;
+    left: 50%;
+    max-width: 502px;
+    min-width: 200px;
+    padding: 5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    top: 50%;
+    width: 100%;
+    padding: calc(10px);
+    width: calc(100% - 20px);
+    background-color: rgb(191, 194, 43);
+  }
+  
+  #container > * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #container h1 {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  
